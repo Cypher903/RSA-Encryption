@@ -1,3 +1,5 @@
+#include "crypto.h"
+
 int modInverse(int e, int m) {
     int m0 = m, t = 0, x = 1;
     if (m == 1) return 0;

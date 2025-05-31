@@ -1,3 +1,5 @@
+#include "crypto.h"
+
 int gcd(int x, int y)
 {
     if (y == 0)
